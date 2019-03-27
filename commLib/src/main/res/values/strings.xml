@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CommLib</string>
+    <string name="nodata">暂无数据</string>
+    <string name="request_permission">授权申请</string>
+    <string name="permissions_requests">应用程序没有必要权限可能无法正常工作,打开设置界面修改相应的权限。</string>
+    <string name="requests_deny">取消了授权</string>
+    <string name="save">保存</string>
+    <string name="post">提交</string>
+    <string name="routescan">扫一扫</string>
+    <string name="permission_camera">需要相机权限</string>
+    <string name="permission_audio">需要录音权限</string>
+    <string name="permission_sd">需要SD卡访问权限</string>
+    <string name="zxing_msg">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="open_flashlight">打开手电</string>
+    <string name="close_flashlight">关闭手电</string>
+    <string name="tip_error">似乎出了点问题</string>
+    <string name="tip_reload">重新加载</string>
+    <string name="tip_nodata">暂无内容</string>
+    <string name="tip_loading">加载中...</string>
+    <string name="config_ip">配置ip</string>
+    <string name="confirm">确认</string>
+    <string name="nfc_open">打开NFC</string>
+    <string name="nfc_open_tip">此功能需打开NFC</string>
+    <string name="cancel">取消</string>
+    <string name="refreshing_tip">数据加载中,暂不可点击</string>
+    <string name="complete">完成</string>
+    <string name="reset">重置</string>
+    <string name="presslong_camera">长按录制</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentView">
+        <attr name="seg_items" format="reference" />
+        <attr name="seg_border_width" format="dimension|reference" />
+        <attr name="seg_border_color" format="color|reference" />
+        <attr name="seg_radius" format="dimension|reference" />
+        <attr name="seg_textColor_checked" format="color|reference" />
+        <attr name="seg_textColor_unchecked" format="color|reference" />
+        <attr name="seg_textSize" format="dimension|reference" />
+        <attr name="seg_count" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="DropDownSpinner">
+        <attr name="hideArrow" format="boolean" />
+        <attr name="hideDiv" format="boolean" />
+        <attr name="arrowDrawable" format="reference|color"/>
+        <attr name="spinnerTextColor" format="color"/>
+        <attr name="spinnerTextSize" format="dimension|reference"/>
+        <attr name="DropDownBackground" format="reference|color"/>
+    </declare-styleable>
+</resources>

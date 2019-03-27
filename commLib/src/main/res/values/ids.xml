@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv_icon" type="id" />
+    <item name="tv_text" type="id" />
+    <item name="iv_tab" type="id" />
+    <item name="view_tab" type="id" />
+    <item name="seg_id" type="id" />
+</resources>

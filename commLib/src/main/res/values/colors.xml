@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+    <color name="colorPrimary">#006cb1</color>
+    <color name="colorPrimaryDark">#006cb1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lighter_grey">#ddd</color>
+    <color name="system_color">#8affffff</color>
+    <color name="system_black">#8a000000</color>
+    <color name="bg_color">#f0f0f0</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="black">#000000</color><!--黑色-->
+    <color name="white">#FFFFFF</color><!--白色-->
+    <color name="font_gray">#505050</color>
+    <color name="pink_light">#FFE1D0</color>
+    <color name="font_pink">#FE843D</color>
+    <color name="home_vw">#fffcc061</color>
+    <color name="home_vw_line">#F6F5F4</color>
+
+    <color name="home_tv_color">#ff212121</color>
+    <color name="tv_gray_color">#ff757575</color>
+    <color name="home_tv_time">#969696</color>
+    <color name="splash_title">#FF363636</color>
+
+    <color name="patrol_btn_getthing">#F4A11D</color>
+    <color name="patrol_btn_startwork">#48A381</color>
+    <color name="patrol_btn_endwork">#969696</color>
+    <color name="tv_bule_color">#ff006cb1</color>
+    <color name="tv_EDEDED_color">#FFEDEDED</color>
+    <color name="user_bg_color">#FFF5F5F5</color>
+
+    <!--饼图颜色-->
+
+    <color name="pie_chart_text">#757575</color>
+    <color name="pie_chart_1">#FCC061</color>
+    <color name="pie_chart_2">#2D9CE0</color>
+    <color name="pie_chart_3">#F95C2B</color>
+    <color name="pie_chart_4">#6ECCAA</color>
+
+</resources>

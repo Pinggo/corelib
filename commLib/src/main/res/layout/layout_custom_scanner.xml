@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.journeyapps.barcodescanner.BarcodeView
+        android:id="@+id/zxing_barcode_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.dev.pipi.commfunc.zxing.CustomViewfinderView
+        android:id="@+id/zxing_viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/zxing_transparent"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tv_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_32"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/open_flashlight"
+            android:textColor="@color/zxing_status_text"
+            />
+        <View
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tv_open"
+            android:background="@drawable/bg_circle">
+        </View>
+        <ImageButton
+            android:id="@+id/iv_flash"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_48"
+            android:src="@drawable/sel_flashlight"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_circle"
+            android:layout_above="@+id/tv_open"
+            android:scaleType="fitXY"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_8"
+            android:paddingStart="@dimen/dp_4"
+            android:paddingEnd="@dimen/dp_4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/zxing_msg"
+            android:layout_above="@id/iv_flash"
+            android:layout_marginBottom="@dimen/dp_32"
+            android:textColor="@color/zxing_status_text" />
+    </RelativeLayout>
+</FrameLayout>

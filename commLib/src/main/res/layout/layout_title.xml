@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:descendantFocusability="afterDescendants"
+    app:titleTextColor="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="@android:color/white"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="标题标题"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:textSize="@dimen/sp_20" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_gravity="right"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_16"
+        style="@style/ActionButton.Overflow"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
