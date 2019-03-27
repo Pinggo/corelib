@@ -12,7 +12,7 @@ allprojects {
 2. 添加依赖
 
 ```
-implementation 'com.github.Pinggo:corelib:v0.0.1'
+implementation 'com.github.Pinggo:corelib:0.0.1'
 ```
 #### 概览
 包含3个模块：commfunc、commlib、commui
