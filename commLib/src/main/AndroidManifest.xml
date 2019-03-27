@@ -15,9 +15,7 @@
     <uses-feature
         android:name="android.hardware.nfc"
         android:required="true" />
-    <application
-        android:allowBackup="true"
-        android:supportsRtl="true">
+    <application>
         <activity android:name=".base.container.ContainerActivity"
             android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan"/>
@@ -25,5 +23,4 @@
         <activity android:name="com.dev.pipi.commfunc.multimedia.CameraActivity"/>
         <service android:name=".service.NetWorkService" />
     </application>
-
 </manifest>
